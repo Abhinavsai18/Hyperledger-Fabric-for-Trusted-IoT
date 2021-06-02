@@ -120,6 +120,8 @@ spec:
           value: "netdns=go"
         - name: CORE_VM_DOCKER_ATTACHSTDOUT
           value: "true"
+        - name: CORE_CHAINCODE_BUILDER
+
         volumeMounts:
         - mountPath: /shared
           name: myvolume
